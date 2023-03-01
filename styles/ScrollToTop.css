@@ -1,0 +1,12 @@
+.scroll-top {
+  position: fixed;
+  bottom: 2rem;
+  right: 4rem;
+  background-color: transparent;
+}
+
+@media (max-width: 950px) {
+  .scroll-top {
+    display: none;
+  }
+}
