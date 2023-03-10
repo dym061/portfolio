@@ -17,7 +17,7 @@ const projects = [
     thumbnail: 'images/w01.png',
     name: 'Modulate',
     description: [
-      'Using data from MySQL database to display water consumption, electricty consumption, and temperature on graphs using Highcharts. Possible to zoom in/out with drill-down options from minutes to years.',
+      'Using data from MySQL database to display water consumption, electricity consumption, and temperature on graphs using Highcharts. Possible to zoom in/out with drill-down options from minutes to years.',
     ],
     stack: ['PHP', 'HTML', 'CSS', 'MySQL']
   },
@@ -33,7 +33,7 @@ const projects = [
     thumbnail: 'images/p00.png',
     name: 'XML Converter',
     description: [
-      'Processing two XML files with financial information of several companies and populating seperate Word Documents from a template with the data retrieved.',
+      'Processing two XML files with financial information of several companies and populating separate Word Documents from a template with the data retrieved.',
     ],
     stack: ['Python', 'DOCX', 'XML']
   },
