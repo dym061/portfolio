@@ -7,7 +7,7 @@ const about = {
   social: {
     linkedin: 'https://www.linkedin.com/in/ciestome',
     facebook: 'https://www.facebook.com/ciestomedia',
-	contra: 'https://contra.com/dominikvf'
+	contra: 'https://contra.com/dominikvf',
 	upwork: 'https://www.upwork.com/freelancers/~01ccd626aacc1d78b6',
   }
 }
