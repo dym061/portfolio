@@ -73,6 +73,18 @@ const About = () => {
                 </a>
               )}
 			  
+              {social.contra && (
+                <a
+                  href={social.contra}
+                  target='_blank'
+                  rel='noreferrer'
+                  aria-label='contra'
+                  className='link link--icon'
+                >
+                  <OpenInNewIcon />
+                </a>
+              )}				  
+			  
               {social.upwork && (
                 <a
                   href={social.upwork}
