@@ -19,10 +19,11 @@ function MyApp({ Component, pageProps }) {
     <>
 	
       <Script 
+		strategy="beforeInteractive" 
 	    id="GA43829101" 
 		src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}`} />
 
-      <Script id="GA23598237">
+      <Script strategy="beforeInteractive" id="GA23598237">
 		{`
 			window.dataLayer = window.dataLayer || [];
 			function gtag(){dataLayer.push(arguments);}
