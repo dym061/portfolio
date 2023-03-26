@@ -17,9 +17,9 @@ import 'animate.css'
 function MyApp({ Component, pageProps }) {
   return (
     <>
-      <Script id="my-script" src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}`} />
+      <Script id={"GA78203431"} src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}`} />
 
-      <Script id="analytics">
+      <Script id={"GA95629103"}>
 		{`
 			window.dataLayer = window.dataLayer || [];
 			function gtag(){dataLayer.push(arguments);}
