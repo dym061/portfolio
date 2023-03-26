@@ -17,10 +17,8 @@ import 'animate.css'
 function MyApp({ Component, pageProps }) {
   return (
     <>
-	
       <Script 
-		id="google"
-		src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}`} />
+		id="my-script" src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}`} />
 
       <Script id="analytics">
 		{`
