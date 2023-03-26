@@ -18,9 +18,11 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
 	
-      <Script id="GA43829101" strategy="lazyOnload" src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}`} />
+      <Script 
+	    id="GA43829101" 
+		src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}`} />
 
-      <Script id="GA23598237" strategy="lazyOnload">
+      <Script id="GA23598237">
 		{`
 			window.dataLayer = window.dataLayer || [];
 			function gtag(){dataLayer.push(arguments);}
@@ -29,7 +31,7 @@ function MyApp({ Component, pageProps }) {
 			page_path: window.location.pathname,
 			});
 		`}
-      </Script>	
+      </Script>
 	
       <Head>
         <meta name='viewport' content='width=device-width, initial-scale=1' />
