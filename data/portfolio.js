@@ -33,7 +33,7 @@ const projects = [
 	thumbnail: 'images/w03.png',
 	name: 'Notification Workflow for Error Monitoring',
 	description: [
-	'Crafted a small yet effective notification workflow through Make.com to monitor errors occurring on Zapier or Make. Notifications were routed to a dedicated Slack channel, keeping the team informed about errors or deactivated scenarios on Zapier, thus fostering a proactive troubleshooting environment.',
+	'Crafted a small yet effective notification workflow through Make.com to monitor errors occurring on Zapier or Make. Notifications were routed to a dedicated Slack channel, keeping the team informed about errors or deactivated scenarios on Zapier or Make, thus fostering a proactive troubleshooting environment.',
 	],
 	stack: [ 'Make', 'Slack', 'Zapier' ]
   },
