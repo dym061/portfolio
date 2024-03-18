@@ -25,7 +25,7 @@ const projects = [
 	thumbnail: 'images/w03.png',
 	name: 'Order Photo Verification Workflow',
 	description: [
-	'Implemented a workflow using Make.com and Airtable to verify photo inclusion in Shopify orders. Implemented a JotForm for customer photo uploads when necessary, and developed a Kanban dashboard on Airtable for order tracking. Automated notifications with custom email-buttons were created to enhance order management efficiency and customer engagement.',
+	'Implemented a workflow using Make.com and Airtable to verify photo inclusion in Shopify orders. Implemented a JotForm for customer photo uploads when necessary, and developed a Kanban dashboard on Airtable for order tracking. Automated notifications with custom email-buttons were created to improve order management efficiency and customer engagement.',
 	],
 	stack: [ 'Make', 'Airtable', 'Shopify', 'JotForm' ]
   },
