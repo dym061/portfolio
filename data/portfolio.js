@@ -96,15 +96,17 @@ const projects = [
 ]
 
 const skills = [
+        'Make',
+        'Make Custom Apps',
+        'Zapier',
+        'Postman',
 	'Python',
+        'JavaScript',
 	'PHP',
 	'MySQL',
-	'MSSQL',
 	'HTML',
 	'CSS',
-	'JavaScript',
-	'React',
-	'WordPress']
+	'React']
 
 const contact = {
   email: 'ciestomedia@gmail.com',
