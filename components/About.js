@@ -41,7 +41,7 @@ const About = () => {
         {description && (
           <div className='txtfont2 about__desc paragraph__list'>
             <span>Hello and welcome! My name is Dominik, and I am a freelance programmer and business software developer. With over 15 years of experience in technical support, web development, software development, and design, I am confident in my ability to bring innovative and effective solutions to any project.</span>
-			<span>I specialize in automation and software development, and I have a particular passion for automation, which has fueled my interest in pursuing a career in machine learning and artificial intelligence. I believe that the future lies in these cutting-edge technologies, and I am eager to be a part of it.</span>
+			<span>I specialize in automation and software development, and I have a passion for automation, which has fueled my interest in pursuing a career in machine learning and artificial intelligence. I believe that the future lies in these cutting-edge technologies, and I am eager to be a part of it.</span>
           </div>
         )}
 
