@@ -29,7 +29,7 @@ const About = () => {
 			  {(
 				<span>
 				  {' '}
-				  Automation Developer
+				 Automation Developer
 				</span>
 			  )}
 			  
@@ -73,7 +73,7 @@ const About = () => {
                 </a>
               )}
 			  
-              {social.contra && (
+/*               {social.contra && (
                 <a
                   href={social.contra}
                   target='_blank'
@@ -83,7 +83,7 @@ const About = () => {
                 >
                   <OpenInNewIcon />
                 </a>
-              )}				  
+              )} */				  
 			  
               {social.upwork && (
                 <a

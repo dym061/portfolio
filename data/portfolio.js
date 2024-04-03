@@ -8,7 +8,7 @@ const about = {
     linkedin: 'https://www.linkedin.com/in/ciestome',
     facebook: 'https://www.facebook.com/ciestomedia',
 	contra: 'https://contra.com/dominikvf',
-	upwork: 'https://www.upwork.com/freelancers/~01ccd626aacc1d78b6',
+	upwork: 'https://www.upwork.com/freelancers/ciestomedia',
   }
 }
 
@@ -19,7 +19,7 @@ const projects = [
 	description: [
 	'Developed a comprehensive referral program for clients featuring a Glideapps dashboard to visualize referrers and referred customers. Utilized JotForms for referrer sign-up and new customer registration, integrating data flow with Make to Glideapps. Airtable stored the data, with automations set up for specific data points and changes, facilitating streamlined referral tracking and management.',
 	],
-	stack: [ 'Make', 'Zapier', 'Glideapps', 'JotForm', 'Airtable' ]
+	stack: [ 'Make', 'Zapier', 'JotForm', 'Airtable', 'Glideapps']
   },
   {
 	thumbnail: 'images/w03.png',
@@ -27,7 +27,7 @@ const projects = [
 	description: [
 	'Implemented a workflow using Make.com and Airtable to verify photo inclusion in Shopify orders. Implemented a JotForm for customer photo uploads when necessary, and developed a Kanban dashboard on Airtable for order tracking. Automated notifications with custom email-buttons were created to enhance order management efficiency and customer engagement.',
 	],
-	stack: [ 'Make', 'Airtable', 'Shopify', 'JotForm' ]
+	stack: [ 'Make', 'Shopify', 'JotForm', 'Airtable' ]
   },
   {
 	thumbnail: 'images/w03.png',
@@ -35,7 +35,7 @@ const projects = [
 	description: [
 	'Crafted a small yet effective notification workflow through Make.com to monitor errors occurring on Zapier or Make. Notifications were routed to a dedicated Slack channel, keeping the team informed about errors or deactivated scenarios on Zapier, thus fostering a proactive troubleshooting environment.',
 	],
-	stack: [ 'Make', 'Slack', 'Zapier' ]
+	stack: [ 'Make', 'Zapier', 'Slack', ]
   },
   {
 	thumbnail: 'images/w03.png',
@@ -43,7 +43,7 @@ const projects = [
 	description: [
 	'Established a notification system on Make.com that filters important emails from the employer’s Gmail account, directing notifications to a specified Slack channel. This ensures vital emails requiring feedback or status updates are promptly addressed, enhancing communication efficiency within the team.',
 	],
-	stack: [ 'Make', 'Gmail', 'Google Cloud API', 'Slack' ]
+	stack: [ 'Make', 'Google Cloud API', 'Gmail',  'Slack' ]
   },
   {
     thumbnail: 'images/w01.png',
@@ -99,8 +99,8 @@ const skills = [
 	'Python',
 	'PHP',
 	'MySQL',
+    'HTML',
 	'MSSQL',
-	'HTML',
 	'CSS',
 	'JavaScript',
 	'React',
