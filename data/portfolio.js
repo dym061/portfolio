@@ -15,6 +15,14 @@ const about = {
 const projects = [
   {
 	thumbnail: 'images/w03.png',
+	name: 'Quoting, Invoicing, and Billing System',
+	description: [
+	'I developed a complex automated Accounts Receivable (AR) management system by integrating Make, Airtable, Fillout, and Pandadoc. I also implemented data migration from the legacy platform using Make’s API capabilities.',
+	],
+	stack: [ 'Make', 'Airtable', 'Fillout', 'PandaDoc', 'API']
+  },
+  {
+	thumbnail: 'images/w03.png',
 	name: 'Referral Program Dashboard',
 	description: [
 	'Developed a comprehensive referral program for clients featuring a Glideapps dashboard to visualize referrers and referred customers. Utilized JotForms for referrer sign-up and new customer registration, integrating data flow with Make to Glideapps. Airtable stored the data, with automations set up for specific data points and changes, facilitating streamlined referral tracking and management.',
