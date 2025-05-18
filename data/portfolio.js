@@ -1,5 +1,5 @@
 const about = {
-  name: 'Dominik von Francois',
+  name: 'Dominik Von',
   company: 'Ciesto Media',
   description: [
     '',
@@ -13,6 +13,14 @@ const about = {
 }
 
 const projects = [
+  {
+	thumbnail: 'images/wa1.png',
+	name: 'Home Insurance Quote Automation',
+	description: [
+	'utomated the end-to-end home insurance quote process by integrating Salesforce, Realtor.com, Guidewire, and SAP. Utilized bots and generative AI to reduce quote generation time from 30 minutes to under 6 minutes, enhancing customer satisfaction and operational efficiency.',
+	],
+	stack: [ "Automation Co-Pilot", "Process Composer", "Bot Builder", "Document Automation", "API Task Builder", "RPA Workspace"]
+  },
   {
 	thumbnail: 'images/w03.png',
 	name: 'Quoting, Invoicing, and Billing System',
@@ -104,15 +112,26 @@ const projects = [
 ]
 
 const skills = [
-	'Python',
-	'PHP',
-	'MySQL',
+    'Asana',
+    'Automation Anywhere',	
+    'CSS',
+    'GitHub',
     'HTML',
-	'MSSQL',
-	'CSS',
-	'JavaScript',
-	'React',
-	'WordPress']
+    'Integromat',
+    'JavaScript',
+    'MSSQL',
+    'MySQL',
+    'OpenAI',
+    'PHP',
+    'PostgreSQL',
+    'PowerShell',
+    'Python',
+    'React',
+    'REST APIs',
+    'SQLite',
+    'Supabase'
+];
+
 
 const contact = {
   email: 'ciestomedia@gmail.com',
